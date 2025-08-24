@@ -1,0 +1,21 @@
+# Core
+opencv-python
+ultralytics
+torch
+torchvision
+numpy
+Pillow
+tqdm
+matplotlib
+
+# Optional extras
+# segment-anything is on PyPI; prefer this over git if it works in your env
+segment-anything
+
+# If segment-anything from PyPI fails in your env, comment it out and use:
+# git+https://github.com/facebookresearch/segment-anything.git
+
+# Depth (optional, MiDaS not always pip-installable across OSes — see note below)
+# timm
+# onnxruntime
+# git+https://github.com/isl-org/MiDaS.git

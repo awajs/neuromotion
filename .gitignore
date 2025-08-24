@@ -1,0 +1,36 @@
+# Neuromotion Project .gitignore
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data & outputs (large files, can use DVC if needed)
+data/raw/
+data/extracted_frames/
+data/masks/
+data/flow/
+data/curated/
+outputs/
+
+# Logs
+*.log
+*.tmp
+*.swp
+
+# Jupyter
+*.ipynb_checkpoints
+yolo11l-seg.pt
+yolo11n-seg.pt
+yolo11s-seg.pt
