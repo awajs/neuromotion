@@ -1,4 +1,6 @@
 # Core
+streamlit==1.28.0
+streamlit-drawable-canvas==0.9.3
 opencv-python
 ultralytics
 torch
@@ -7,6 +9,9 @@ numpy
 Pillow
 tqdm
 matplotlib
+
+# RAW image support (Sony ARW, Canon CR2/CR3, Nikon NEF, etc.)
+rawpy
 
 # Optional extras
 # segment-anything is on PyPI; prefer this over git if it works in your env

@@ -22,6 +22,7 @@ data/extracted_frames/
 data/masks/
 data/flow/
 data/curated/
+data/
 outputs/
 
 # Logs
